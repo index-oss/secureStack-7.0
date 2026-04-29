@@ -1,0 +1,7 @@
+you were to extend secureStack-7.0 into a red-team capable tool,
+how would you add logic vulnerability detection (IDOR/BOLA) on top of dependency analysis?
+Structure:
+Entry point identification
+Data flow tracking
+Authorization validation logic
+Exploit simulation
