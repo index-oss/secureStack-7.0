@@ -196,31 +196,29 @@ DevSecOps pipeline integration
 
 ---
 
-🧭 Design Philosophy
+## 🧭 Design Philosophy
 
-Assume nothing is secure
+- Assume nothing is secure
 
-Trust no input
+- Trust no input
 
-Validate every access
+- Validate every access
 
-Focus on exploitability, not noise
+- Focus on exploitability, not noise
 
 
 
 ---
 
-🚀 The Mission
+## 🚀 The Mission
 
 To deliver a unified platform that combines:
-
-Reconnaissance
-
-Logic analysis
-
-Real exploit validation
-
+- Reconnaissance  
+- Logic analysis  
+- Real exploit validation  
 
 — enabling security professionals to detect critical vulnerabilities before attackers do.
 
-> Build secure. Audit deep. Trust nothing.
+---
+
+**Build secure. Audit deep. Trust nothing.**
