@@ -80,20 +80,20 @@ SecureStack evolves beyond reconnaissance into application logic analysis, targe
   ```js
   find(req.params.id)
 
-without ownership validation
+- without ownership validation
 
-Flags missing checks like:
+- Flags missing checks like:
 
-where('user_id', current_user.id)
+- where('user_id', current_user.id)
 
 
-Outcome: High-confidence logic vulnerability detection
+**Outcome: High-confidence logic vulnerability detection**
 
 
 ---
 
 3. Authorization Validation (Access Control Analysis)
-
+   
 Compares middleware and authorization layers across routes
 
 
@@ -178,19 +178,19 @@ Optional Flags
 
 ---
 
-🎯 Use Cases
+## 🎯 Use Cases
 
-Bug bounty reconnaissance
+- Bug bounty reconnaissance
 
-Web application penetration testing
+- Web application penetration testing
 
-API security auditing
+- API security auditing
 
-Pre-deployment security validation
+- Pre-deployment security validation
 
-Red-team operations
+- Red-team operations
 
-DevSecOps pipeline integration
+- DevSecOps pipeline integration
 
 
 
