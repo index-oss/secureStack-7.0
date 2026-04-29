@@ -92,18 +92,18 @@ SecureStack evolves beyond reconnaissance into application logic analysis, targe
 
 ---
 
-3. Authorization Validation (Access Control Analysis)
+### 3. Authorization Validation (Access Control Analysis)
    
-Compares middleware and authorization layers across routes
+- Compares middleware and authorization layers across routes
 
 
-Detects:
+## Detects:
 
-Missing authentication
+ - Missing authentication
 
-Weak middleware usage
+ - Weak middleware usage
 
-Inconsistent access control enforcement
+ - Inconsistent access control enforcement
 
 
 Example:
@@ -111,61 +111,61 @@ Example:
 /api/user/profile → Protected
 /api/user/update  → Unprotected
 
-→ Immediate Privilege Escalation Risk
+**Immediate Privilege Escalation Risk**
 
 
 ---
 
-4. Exploit Simulation (Proof-Based Validation)
+### 4. Exploit Simulation (Proof-Based Validation)
 
-SecureStack performs controlled exploit simulation:
+## SecureStack performs controlled exploit simulation:
 
-Spawns test environment
+- Spawns test environment
 
-Creates isolated users (User A / User B)
+- Creates isolated users (User A / User B)
 
-Attempts cross-access using valid tokens
-
-
-Validates:
-
-Unauthorized data access
-
-Broken authorization logic
-
-Real exploitability (not theoretical)
+- Attempts cross-access using valid tokens
 
 
+## Validates:
 
----
+- Unauthorized data access
 
-🛠️ Installation & Setup
+- Broken authorization logic
 
-Prerequisites
-
-Python 3.8+
-
-
-Supported environments:
-
-Linux
-
-Windows
-
-Termux / Pydroid3
+- Real exploitability (not theoretical)
 
 
 
 ---
 
-Install Dependencies
+### 🛠️ Installation & Setup
+
+- Prerequisites
+
+- Python 3.8+
+
+
+## Supported environments:
+
+- Linux
+
+- Windows
+
+- Termux / Pydroid3
+
+
+
+---
+
+## Install Dependencies
 
 pip install cloudscraper beautifulsoup4 asyncio
 
 
 ---
 
-▶️ Usage
+## ▶️ Usage
 
 python securestack.py --target https://example.com
 
