@@ -106,10 +106,11 @@ SecureStack evolves beyond reconnaissance into application logic analysis, targe
  - Inconsistent access control enforcement
 
 
-Example:
-
+**Example:**
+```bash
 /api/user/profile → Protected
 /api/user/update  → Unprotected
+```
 
 **Immediate Privilege Escalation Risk**
 
@@ -160,7 +161,9 @@ Example:
 
 ## Install Dependencies
 
+```bash
 pip install cloudscraper beautifulsoup4 asyncio
+```
 
 
 ---
@@ -169,11 +172,14 @@ pip install cloudscraper beautifulsoup4 asyncio
 
 python securestack.py --target https://example.com
 
+```bash
+
 Optional Flags
 
 --deep-js       # Enable JS intelligence
 --logic-scan    # Enable IDOR/BOLA engine
 --stealth       # Enable advanced evasion
+```
 
 
 ---
