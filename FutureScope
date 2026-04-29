@@ -5,3 +5,12 @@ Entry point identification
 Data flow tracking
 Authorization validation logic
 Exploit simulation
+
+
+Design the Exploit Simulation Engine v2
+Include:
+Session handling strategy
+Token extraction method
+Replay mechanism
+Failure handling
+Keep it operational, not descriptive.
